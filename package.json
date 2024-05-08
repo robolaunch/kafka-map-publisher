@@ -1,0 +1,31 @@
+{
+  "name": "kafka-map-publisher",
+  "version": "0.2.2",
+  "description": "Kafka Map Publisher",
+  "main": "app/app.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/app.js",
+    "dev": "nodemon app/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robolaunch/kafka-map-publisher.git"
+  },
+  "author": "gokhangunduz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robolaunch/kafka-map-publisher/issues"
+  },
+  "homepage": "https://github.com/robolaunch/kafka-map-publisher#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "kafkajs": "^2.2.4"
+  }
+}
